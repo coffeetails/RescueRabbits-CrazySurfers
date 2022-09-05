@@ -1,4 +1,4 @@
-{{
+{
 	"animals": [
 		{
 			"name": "Roffe",
@@ -20,18 +20,18 @@
 			"arrival": "2022-04",
 			"breed": "Bondkatt",
 			"booked": false,
-			"description": "försiktig, tycker inte om när det blir mycket ljud och rörelse runt honom-då blir han stressad och drar sig undan. Han vill bli klappad när han känner sig trygg. Har blivit mycket mer gosig senaste tiden! Han söker ett lugnt hem utan små barn eller hundar, där matte/husse har haft katt tidigare"
+			"description": "Försiktig, tycker inte om när det blir mycket ljud och rörelse runt honom-då blir han stressad och drar sig undan. Han vill bli klappad när han känner sig trygg. Har blivit mycket mer gosig senaste tiden! Han söker ett lugnt hem utan små barn eller hundar, där matte/husse har haft katt tidigare"
 		},
 		{
 			"name": "Jordan",
 			"born": "2022-03-08",
 			"location": "Hagfors",
-			"gender": "Hane"
+			"gender": "Hane",
 			"type": "Kanin",
 			"arrival": "2022-07",
 			"breed": "",
 			"booked": false,
-			"description": "Lille Jordan var till en början skräckslagen, traumatiserad och hade sår som blödde på bakkroppen. Han togs omedelbart till veterinär där han blev undersökt och det konstaterades att han efter omständigheterna mådde bra. Trots sökande i området där Jordan hittades så har ingen mer kanin setts till, hans bakgrund är därav okänd. I jourhemmet stödmatades Jordan med mjölkersättning till en början. Efter bara några dagar inomhus hos jourhemmet fick Jordan förtroende för jourmatte och kommer numera nyfiket fram och skuttar även ibland upp i knät när jourmatte sitter på golvet. Han har fortfarande mycket vilt i sig och passar därmed inte bra i ett hem med barn. Han är en kvick och rastlös liten krabat som älskar att utforska sin omgivning och tar sig med lätthet fram på hala golv och gör ständigt glädjeskutt och ruscher på favoritmattan. Han är mycket duktig på att hoppa och tar sig lätt över kompostgaller. Han har aldrig visat några tendenser att tugga eller bita på olämpliga saker. "
+			"description": "Lille Jordan var till en början skräckslagen, traumatiserad och hade sår som blödde på bakkroppen. Han togs omedelbart till veterinär där han blev undersökt och det konstaterades att han efter omständigheterna mådde bra. Trots sökande i området där Jordan hittades så har ingen mer kanin setts till, hans bakgrund är därav okänd. I jourhemmet stödmatades Jordan med mjölkersättning till en början. Efter bara några dagar inomhus hos jourhemmet fick Jordan förtroende för jourmatte och kommer numera nyfiket fram och skuttar även ibland upp i knät när jourmatte sitter på golvet. Han har fortfarande mycket vilt i sig och passar därmed inte bra i ett hem med barn. Han är en kvick och rastlös liten krabat som älskar att utforska sin omgivning och tar sig med lätthet fram på hala golv och gör ständigt glädjeskutt och ruscher på favoritmattan. Han är mycket duktig på att hoppa och tar sig lätt över kompostgaller. Han har aldrig visat några tendenser att tugga eller bita på olämpliga saker."
 		},
 		{
 			"name": "Jonna",
