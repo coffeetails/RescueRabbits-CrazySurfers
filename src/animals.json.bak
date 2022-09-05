@@ -1,0 +1,101 @@
+{{
+	"animals": [
+		{
+			"name": "Roffe",
+			"born": "2022-07-23", 
+			"location": "Karlstad",
+			"gender": "Hane",
+			"type": "Katt",
+			"arrival": "2022-01",
+			"breed": "Bondkatt",
+			"booked": false,
+			"description": "Roffe är en otroligt vacker kille, högbent och smärt. Han har mycket energi som han behöver kunna få utlopp för. Så Roffe behöver en större yta att bo på, allra helst att han kan få tillgång till utevistelse på sikt när han bott in sig. Roffe vill bo med en tjejkattkompis med lite skinn på näsan, hon ska vara snäll men inte låta någon köra med henne."
+		},
+		{
+			"name": "Tobbe",
+			"born": "2019",
+			"location": "Hammarö",
+			"gender": "Hane",
+			"type": "Katt",
+			"arrival": "2022-04",
+			"breed": "Bondkatt",
+			"booked": false,
+			"description": "försiktig, tycker inte om när det blir mycket ljud och rörelse runt honom-då blir han stressad och drar sig undan. Han vill bli klappad när han känner sig trygg. Har blivit mycket mer gosig senaste tiden! Han söker ett lugnt hem utan små barn eller hundar, där matte/husse har haft katt tidigare"
+		},
+		{
+			"name": "Jordan",
+			"born": "2022-03-08",
+			"location": "Hagfors",
+			"gender": "Hane"
+			"type": "Kanin",
+			"arrival": "2022-07",
+			"breed": "",
+			"booked": false,
+			"description": "Lille Jordan var till en början skräckslagen, traumatiserad och hade sår som blödde på bakkroppen. Han togs omedelbart till veterinär där han blev undersökt och det konstaterades att han efter omständigheterna mådde bra. Trots sökande i området där Jordan hittades så har ingen mer kanin setts till, hans bakgrund är därav okänd. I jourhemmet stödmatades Jordan med mjölkersättning till en början. Efter bara några dagar inomhus hos jourhemmet fick Jordan förtroende för jourmatte och kommer numera nyfiket fram och skuttar även ibland upp i knät när jourmatte sitter på golvet. Han har fortfarande mycket vilt i sig och passar därmed inte bra i ett hem med barn. Han är en kvick och rastlös liten krabat som älskar att utforska sin omgivning och tar sig med lätthet fram på hala golv och gör ständigt glädjeskutt och ruscher på favoritmattan. Han är mycket duktig på att hoppa och tar sig lätt över kompostgaller. Han har aldrig visat några tendenser att tugga eller bita på olämpliga saker. "
+		},
+		{
+			"name": "Jonna",
+			"born": "",
+			"location": "Sunne",
+			"gender": "Hona",
+			"type": "Kanin",
+			"arrival": "2022-05",
+			"breed": "",
+			"booked": false,
+			"description": "Jonna fångades in i augusti 2022 efter att tidigare under året dumpats utomhus. Hon hade sedan juni setts röra sig i ett starkt trafikerat område i Sunne, nära mataffär, förskola och en del mindre grönområden. Flera inlägg skrevs om henne på sociala medier där privatpersoner vädjat till att hon ska få hjälp att fångas in. Det uppmärksammades även att Jonna hade fått ungar där några av dem så sorgligt blivit tagna av katter i området. Jonna är inte alls så rädd men är av naturliga skäl ohanterad efter en sommar i den otrygga miljö hon tvingats bo i. Mer info om Jonna kommer när vi lär känna henne lite mer."
+		},
+		{
+			"name": "Tequilla och Nikita",
+			"born": "2022-02-22",
+			"location": "Karlstad",
+			"gender": "Honor",
+			"type": "Chinchilla",
+			"arrival": "2022-08",
+			"breed": "",
+			"booked": false,
+			"description": "När de först kom till jourhemmet var de jätterädda och de verkar inte ha blivit socialiserade alls. Teqilla är lite modigare och mer nyfiken än Nikita. Teqilla är nyfiken på TVn, katten och sitter gärna och spanar på jourmatte när hon sitter i soffan. De har med tiden blivit modigare och modigare så nu vågar de vara framme även när det är människor i rummet. Efter en månad i jourhemmet vågade Teqilla ta godis ur handen och numera vågar även Nikita ta emot godis från handen. Så länge man inte klappar på dem eller utsätter dem för annan fysisk kontakt så blir de mer och mer sociala. De är väldigt snälla och har aldrig bitits. "
+		},
+		{
+			"name": "",
+			"born": "2022-02-22",
+			"location": "",
+			"gender": "",
+			"type": "Chinchilla",
+			"arrival": "",
+			"breed": "",
+			"booked": false,
+			"description": ""
+		},
+		{
+			"name": "Kreti och Pleti",
+			"born": "2022-02-22",
+			"location": "Arvika",
+			"gender": "Honor",
+			"type": "Tamråttor",
+			"arrival": "2022-06",
+			"breed": "",
+			"booked": false,
+			"description": "Mamman till dessa ungar kom till Rescue Rabbits via Länsstyrelsen efter att, tillsammans med flera andra råttor, blivit omhändertagen från vanvård. Strax efter ankomst till Rescue Rabbits födde hon 13 ungar varav 9 överlevde de första dygnen. Ungarna är busiga och glada, äter med god aptit och växer som de ska. De kommer vara redo att flytta när de är minst 6 – 7 veckor gamla och väger ca 100g. "
+		},
+		{
+			"name": "Yin och Yang",
+			"born": "2020-12",
+			"location": "Säffle",
+			"gender": "Honor",
+			"type": "",
+			"breed": "",
+			"booked": false,
+			"description": "De gavs som julklapp till ett barn som tyvärr tröttnade på dem och till slut överlämnades de till oss. De är båda väldigt glada och sociala, de älskar när man grejar i deras bur och klättrar gärna upp i handen. De är nyfikna och gillar att utforska nya utrymmen och nya saker, både i och utanför buren. Både Yin och Yang ät enkla att hantera och har inte uppvisat några tendenser att bitas i jourhemmet."
+		},
+		{
+			"name": "",
+			"born": "2022-02-22",
+			"location": "",
+			"gender": "",
+			"type": "",
+			"breed": "",
+			"booked": false,
+			"description": ""
+		}
+	]
+}
