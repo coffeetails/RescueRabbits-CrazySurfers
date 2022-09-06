@@ -23,9 +23,9 @@ body {
 
 .nav {
   border-bottom: 1px solid $clr-gray700;
-  padding: 25px;
-  background-color: #F0EBE3;
-
+  padding: 15px;
+  background-color: #f0ebe3;
+  box-shadow: 0px 0px 10px rgb(95, 95, 95);
   &__toggle {
     position: absolute;
     cursor: pointer;
@@ -74,8 +74,10 @@ body {
       color: inherit;
       font-size: 1.2rem;
       padding: 5px;
+
+      
       &:hover{
-        transition: 500ms all;
+        transition: 200ms all;
         border-bottom: 5px solid black;
       }
     }
