@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "vite-react": "^0.7.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

@@ -1,0 +1,122 @@
+
+/*   color variables */
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 0.2rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Andika New Basic", sans-serif;
+  font-weight: 700;
+  color: $clr-gray600;
+  height: 100vh;
+}
+
+.nav {
+  border-bottom: 1px solid $clr-gray700;
+  padding: 15px;
+  background-color: #f0ebe3;
+  box-shadow: 0px 0px 10px rgb(95, 95, 95);
+  &__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+
+    svg {
+      width: 1.5rem;
+      fill: $clr-gray600;
+    }
+
+    .close {
+      display: none;
+    }
+
+    .menu {
+      margin-top: 0.2rem;
+    }
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+
+    li {
+      list-style: none;
+      display: none;
+      cursor: pointer;
+      &:first-child {
+        margin-right: auto;
+        display: block;  
+      }
+       
+      
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.2rem;
+      padding: 5px;
+
+      
+      &:hover{
+        transition: 200ms all;
+        border-bottom: 5px solid black;
+      }
+    }
+
+    svg {
+      width: 1.5rem;
+      fill: $clr-gray600;
+    }
+  }
+}
+
+// Toggle the hamburger menu in mobile view
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+  
+}
+
+//Change from menu to close icon on tap
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+// Desktop view
+@media only screen and (min-width: 560px) {
+  .nav {
+    &__toggle {
+      display: none;
+    }
+
+    &__menu {
+      flex-direction: row;
+
+      li {
+        display: block;
+      }
+    }
+  }
+}
