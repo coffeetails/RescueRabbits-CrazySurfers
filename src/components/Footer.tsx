@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="#" className="fa fa-instagram"></a>
             </article>
             <article>
-                <ul>
+                <ul className="ul__footer">
                     <p className='headline'>Företag</p>
                     <li onClick={() => navigate('/About')}><a>Om oss</a></li>
                     <li onClick={() => navigate('/Adoption')}><a>Att Adoptera</a></li>
