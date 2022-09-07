@@ -3,9 +3,10 @@ import {Routes, Route} from 'react-router-dom';
 import  LandingPage  from "./Views/LandingPage";
 import  About  from "./Views/About";
 import  Adoption  from "./Views/Adoption";
+
+
 function App() {
  
-
   return (
     <div className="App">
       <Routes>
