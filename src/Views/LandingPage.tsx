@@ -1,6 +1,7 @@
 
 
 import Animal from "../components/Animal";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const LandingPage = () =>{
@@ -9,6 +10,7 @@ const LandingPage = () =>{
         <Header/>
         <h1>Landing Page</h1>
         <Animal />
+        <Footer />
         </>
     )
 }

@@ -8,15 +8,29 @@
     .card{
         
         height: 50%;
-        border: 1px solid black;
+        margin: 5px;
+        background-color: white;
+        text-align: center;
+        box-shadow: 4px 5px 7px black;
+        button{
+            padding: 10px;
+            margin: 10px;
+            background-color: #576F72;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
 
-        
+            &:hover{
+                background-color: rgb(106, 179, 63);
+                font-size: medium;
+            }
+        }
     }
  
 
 }
 img{
-    
+    height: 200px;
     width: 15rem;
-    
+    object-fit: cover;
 }

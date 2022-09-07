@@ -11,11 +11,10 @@ const Animal = () =>{
               
                 <div className='card'>
                     <img src={animal.img} alt="" />
-                    <h3>{animal.name}</h3>
-                    <h4>{animal.arrival}</h4>
-                    <h5>{animal.born}</h5>
-                    <h5>{animal.gender}</h5>
-                    <h5>{animal.location}</h5>
+                    <h3>Namn: {animal.name}</h3>
+                    <h5>Född: {animal.born}</h5>
+                    <h5>Kön: {animal.gender}</h5>
+                    <h5>Plats: {animal.location}</h5>
                     <button>läs mer</button>
                 </div>
             
