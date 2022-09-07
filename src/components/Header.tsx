@@ -16,7 +16,7 @@ const Header = () =>{
           </svg>
         </label>
         <ul className="nav__menu">
-          <li onClick={() => navigate('/')}><h1>Rescue Rabbits</h1></li>
+          <li onClick={() => navigate('/')}><h2>Rescue Rabbits</h2></li>
           <li onClick={() => navigate('/')}><a>Animals</a></li>
           <li onClick={() => navigate('/About')}><a>About</a></li>
           <li onClick={() => navigate('/Adoption')}><a>Adoption</a></li>
