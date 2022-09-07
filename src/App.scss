@@ -2,9 +2,11 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  size: 14px;
   color: base.$clr-font;
+  size: 14px;
 }
 
 * h1 {
@@ -14,7 +16,7 @@
 * h2 {
   size: 24px;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 * h3 {
