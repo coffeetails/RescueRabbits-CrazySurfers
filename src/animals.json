@@ -6,9 +6,9 @@
 			"location": "Karlstad",
 			"gender": "Hane",
 			"type": "Katt",
-			"arrival": "2022-01",
-			"breed": "Bondkatt",
-			"booked": false,
+			"arrival": "2022-01-16",
+			"booked": true,
+			"img": "",
 			"description": "Roffe är en otroligt vacker kille, högbent och smärt. Han har mycket energi som han behöver kunna få utlopp för. Så Roffe behöver en större yta att bo på, allra helst att han kan få tillgång till utevistelse på sikt när han bott in sig. Roffe vill bo med en tjejkattkompis med lite skinn på näsan, hon ska vara snäll men inte låta någon köra med henne."
 		},
 		{
@@ -17,32 +17,32 @@
 			"location": "Hammarö",
 			"gender": "Hane",
 			"type": "Katt",
-			"arrival": "2022-04",
-			"breed": "Bondkatt",
+			"arrival": "2022-04-25",
 			"booked": false,
+			"img": "",
 			"description": "Försiktig, tycker inte om när det blir mycket ljud och rörelse runt honom-då blir han stressad och drar sig undan. Han vill bli klappad när han känner sig trygg. Har blivit mycket mer gosig senaste tiden! Han söker ett lugnt hem utan små barn eller hundar, där matte/husse har haft katt tidigare"
 		},
 		{
 			"name": "Jordan",
-			"born": "2022-03-08",
+			"born": "2022-03-01",
 			"location": "Hagfors",
 			"gender": "Hane",
 			"type": "Kanin",
 			"arrival": "2022-07",
-			"breed": "",
 			"booked": false,
-			"description": "Lille Jordan var till en början skräckslagen, traumatiserad och hade sår som blödde på bakkroppen. Han togs omedelbart till veterinär där han blev undersökt och det konstaterades att han efter omständigheterna mådde bra. Trots sökande i området där Jordan hittades så har ingen mer kanin setts till, hans bakgrund är därav okänd. I jourhemmet stödmatades Jordan med mjölkersättning till en början. Efter bara några dagar inomhus hos jourhemmet fick Jordan förtroende för jourmatte och kommer numera nyfiket fram och skuttar även ibland upp i knät när jourmatte sitter på golvet. Han har fortfarande mycket vilt i sig och passar därmed inte bra i ett hem med barn. Han är en kvick och rastlös liten krabat som älskar att utforska sin omgivning och tar sig med lätthet fram på hala golv och gör ständigt glädjeskutt och ruscher på favoritmattan. Han är mycket duktig på att hoppa och tar sig lätt över kompostgaller. Han har aldrig visat några tendenser att tugga eller bita på olämpliga saker."
+			"img": "",
+			"description": "Han har fortfarande mycket vilt i sig och passar därmed inte bra i ett hem med barn. Han är en kvick och rastlös liten krabat som älskar att utforska sin omgivning och tar sig med lätthet fram på hala golv och gör ständigt glädjeskutt och ruscher på favoritmattan. Han är mycket duktig på att hoppa och tar sig lätt över kompostgaller. "
 		},
 		{
 			"name": "Jonna",
-			"born": "",
+			"born": "2020-12-01",
 			"location": "Sunne",
 			"gender": "Hona",
 			"type": "Kanin",
-			"arrival": "2022-05",
-			"breed": "",
+			"arrival": "2022-05-13",
 			"booked": false,
-			"description": "Jonna fångades in i augusti 2022 efter att tidigare under året dumpats utomhus. Hon hade sedan juni setts röra sig i ett starkt trafikerat område i Sunne, nära mataffär, förskola och en del mindre grönområden. Flera inlägg skrevs om henne på sociala medier där privatpersoner vädjat till att hon ska få hjälp att fångas in. Det uppmärksammades även att Jonna hade fått ungar där några av dem så sorgligt blivit tagna av katter i området. Jonna är inte alls så rädd men är av naturliga skäl ohanterad efter en sommar i den otrygga miljö hon tvingats bo i. Mer info om Jonna kommer när vi lär känna henne lite mer."
+			"img": "",
+			"description": "Jonna fångades in i augusti 2022 efter att tidigare under året dumpats utomhus. Hon hade sedan juni setts i ett starkt trafikerat område i Sunne. Jonna hade fått ungar där några av dem så sorgligt blivit tagna av katter i området. Jonna är inte alls så rädd men är av naturliga skäl ohanterad. Mer info om Jonna kommer när vi lär känna henne lite mer."
 		},
 		{
 			"name": "Tequilla och Nikita",
@@ -50,21 +50,21 @@
 			"location": "Karlstad",
 			"gender": "Honor",
 			"type": "Chinchilla",
-			"arrival": "2022-08",
-			"breed": "",
+			"arrival": "2022-08-12",
 			"booked": false,
+			"img": "",
 			"description": "När de först kom till jourhemmet var de jätterädda och de verkar inte ha blivit socialiserade alls. Teqilla är lite modigare och mer nyfiken än Nikita. Teqilla är nyfiken på TVn, katten och sitter gärna och spanar på jourmatte när hon sitter i soffan. De har med tiden blivit modigare och modigare så nu vågar de vara framme även när det är människor i rummet. "
 		},
 		{
-			"name": "",
+			"name": "Hans och Gösta",
 			"born": "2022-02-22",
-			"location": "",
-			"gender": "",
+			"location": "Säffle",
+			"gender": "Hanar",
 			"type": "Chinchilla",
-			"arrival": "",
-			"breed": "",
+			"arrival": "2022-04-23",
 			"booked": false,
-			"description": ""
+			"img": "",
+			"description": "Två busiga grabbar som är ganska socialiserade men kan nafsa om man försöker röra vid dom. Det går bra att ge godis från handen så med mycket tåladmod och tillitsövningar så kan dom potensiellt bli gosiga. Om dom får snören eller annat trådigt så brukar dom göra flätor."
 		},
 		{
 			"name": "Kreti och Pleti",
@@ -72,9 +72,9 @@
 			"location": "Arvika",
 			"gender": "Honor",
 			"type": "Tamråttor",
-			"arrival": "2022-06",
-			"breed": "",
-			"booked": false,
+			"arrival": "2022-06-01",
+			"booked": true,
+			"img": "",
 			"description": "Mamman till dessa ungar kom till Rescue Rabbits via Länsstyrelsen efter att, tillsammans med flera andra råttor, blivit omhändertagen från vanvård. Strax efter ankomst till Rescue Rabbits födde hon 13 ungar varav 9 överlevde de första dygnen. Ungarna är busiga och glada, äter med god aptit och växer som de ska. "
 		},
 		{
@@ -84,8 +84,8 @@
 			"gender": "Honor",
 			"type": "Tamråttor",
 			"arrival": "2022-06",
-			"breed": "",
 			"booked": false,
+			"img": "",
 			"description": "De gavs som julklapp till ett barn som tyvärr tröttnade på dem och till slut överlämnades de till oss. De är båda väldigt glada och sociala, de älskar när man grejar i deras bur och klättrar gärna upp i handen. De är nyfikna och gillar att utforska nya utrymmen och nya saker, både i och utanför buren. Både Yin och Yang ät enkla att hantera och har inte uppvisat några tendenser att bitas i jourhemmet."
 		},
 		{
@@ -95,19 +95,74 @@
 			"gender": "Hona",
 			"type": "Hamster",
 			"arrival": "2022-06",
-			"breed": "",
 			"booked": false,
+			"img": "",
 			"description": "Maty är blyg men otroligt snäll och hon anpassar sig till övriga flocken utan väsen. Hon sitter still i knät och är lätt att klippa klorna på. Maty är ung och har fortfarande flyktbeteende men med tillitsträning och ett par trygga burkompisar kan hon bli handtam. Man behöver bara ge henne tid."
 		},
 		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
+			"name": "Håkan",
+			"born": "2022-06-01",
+			"location": "Arvika",
+			"gender": "Hane",
 			"type": "Hamster",
-			"arrival": "",
-			"breed": "",
+			"arrival": "2022-07-20",
+			"booked": true,
+			"img": "",
+			"description": "En ung kille hittad i en kartong ensam och övergiven på gatan i Arvika. Han är mindre än förväntat vid sin ålder eftersom han antagligen blivit vanskött och undernärd. Men den tiden han varit hos oss så har han växt massor och han gillar verkligen kel och gos även om han är väldigt lättskrämd och ogillar nya människor. "
+		},
+		{
+			"name": "Maggan",
+			"born": "2019",
+			"location": "Säffle",
+			"gender": "Hona",
+			"type": "Marsvin",
+			"arrival": "2021-12-23",
 			"booked": false,
+			"img": "",
+			"description": "En äldre dam som söker nytt hem, hon är van vid små livliga barn men kunde tyvärr ej stanna i sin familj på grund av allergier. Hon är en livlig dam som gärna springer omkring eller ligger och tar det lugnt i knäet eller på höften i soffan på kvällarna."
+		},
+		{
+			"name": "Magnus",
+			"born": "2021-04-01",
+			"location": "Karlstad",
+			"gender": "Hane",
+			"type": "Marsvin",
+			"arrival": "2021-12-29",
+			"booked": false,
+			"img": "",
+			"description": "Barnen i familjen fick en hamster som dom tyvärr tröttnade snabbt på, så vi fick ta hand om han. Magnus är inte så väldigt tam men med tillitsövningar och mycket tålamod så kan han bli ganska tam. Han har inte visat några som helst tecken på att bitas."
+		},
+		{
+			"name": "Aina och Algot",
+			"born": "2016-06-01",
+			"location": "Torsby",
+			"gender": "Blandat",
+			"type": "Hund",
+			"arrival": "2022-07-25",
+			"booked": false,
+			"img": "",
+			"description": "Aina och Algot kommer från ett vanvårdsärende ifrån Länsstyrelsen och söker ett nytt hem nära naturen och mycket utevistelse då Aina och Algot inte är vana vid att vara inomhus. Aina och Algot är båda en blandning med Grönlandshund."
+		},
+		{
+			"name": "Bowie",
+			"born": "2021-03-01",
+			"location": "Charlottenberg",
+			"gender": "Hane",
+			"type": "Hund",
+			"arrival": "2022-04-17",
+			"booked": false,
+			"img": "",
+			"description": "Här kommer Bowie en Gos d'atura catalá som är ett härligt yrväder med mycket energi. Bowie söker en hundvan och trygg förare gärna med vana av rasen. Bowie skulle förmodligen må bra av att dela livet med en trevlig hundkompis och ha stora ytor att röra sig på, han behöver rutiner, kärlek, mental och fysisk stimulans varvat med avkoppling för att bli sitt bästa jag."
+		},
+		{
+			"name": "",
+			"born": "",
+			"location": "",
+			"gender": "",
+			"type": "övriga djur",
+			"arrival": "",
+			"booked": false,
+			"img": "",
 			"description": ""
 		},
 		{
@@ -115,10 +170,10 @@
 			"born": "",
 			"location": "",
 			"gender": "",
-			"type": "Marsvin",
+			"type": "övriga djur",
 			"arrival": "",
-			"breed": "",
 			"booked": false,
+			"img": "",
 			"description": ""
 		},
 		{
@@ -126,10 +181,10 @@
 			"born": "",
 			"location": "",
 			"gender": "",
-			"type": "Marsvin",
+			"type": "övriga djur",
 			"arrival": "",
-			"breed": "",
 			"booked": false,
+			"img": "",
 			"description": ""
 		},
 		{
@@ -139,8 +194,8 @@
 			"gender": "",
 			"type": "",
 			"arrival": "",
-			"breed": "",
 			"booked": false,
+			"img": "",
 			"description": ""
 		}
 	]

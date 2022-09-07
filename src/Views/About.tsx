@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const About = () =>{
@@ -5,6 +6,7 @@ const About = () =>{
         <>
         <Header/>
         <h1>About Page</h1>
+        <Footer />
         </>
     )
 }
