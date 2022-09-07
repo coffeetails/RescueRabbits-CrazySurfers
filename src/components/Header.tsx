@@ -17,9 +17,9 @@ const Header = () =>{
         </label>
         <ul className="nav__menu">
           <li onClick={() => navigate('/')}><h1>Rescue Rabbits</h1></li>
-          <li onClick={() => navigate('/')}><a>Animals</a></li>
-          <li onClick={() => navigate('/About')}><a>About</a></li>
-          <li onClick={() => navigate('/Adoption')}><a>Adoption</a></li>
+          <li onClick={() => navigate('/')}><a>Djur</a></li>
+          <li onClick={() => navigate('/About')}><a>Om oss</a></li>
+          <li onClick={() => navigate('/Adoption')}><a>Att Adoptera</a></li>
         </ul>
       </nav>   
     )
