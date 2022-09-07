@@ -8,7 +8,7 @@
 			"type": "Katt",
 			"arrival": "2022-01-16",
 			"booked": true,
-			"img": "https://unsplash.com/photos/gKXKBY-C-Dk",
+			"img": "src\\images\\categories\\katter.jpg",
 			"description": "Roffe är en otroligt vacker kille, högbent och smärt. Han har mycket energi som han behöver kunna få utlopp för. Så Roffe behöver en större yta att bo på, allra helst att han kan få tillgång till utevistelse på sikt när han bott in sig. Roffe vill bo med en tjejkattkompis med lite skinn på näsan, hon ska vara snäll men inte låta någon köra med henne."
 		},
 		{

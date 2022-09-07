@@ -6,7 +6,7 @@ export interface AnimalDis {
     type?: string;
     arrival: string;
     booked: boolean;
-    imgUrl?: string;
+    img?: string;
     desc?: string;
 
 }
