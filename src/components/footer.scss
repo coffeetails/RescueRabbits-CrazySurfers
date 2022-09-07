@@ -15,6 +15,10 @@ $icon-weight: 64px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
 .fa {
