@@ -10,6 +10,7 @@ const Animal = () =>{
         {animal.map(animal =>(
               
                 <div className='card'>
+                    <div className={"bokad"+animal.booked}><h3>{}</h3></div>
                     <img src={animal.img} alt="" />
                     <h3>Namn: {animal.name}</h3>
                     <h5>Född: {animal.born}</h5>
