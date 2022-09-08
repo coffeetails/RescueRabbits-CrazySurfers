@@ -1,0 +1,61 @@
+@use '../_base.scss';
+
+.grid-container{
+    padding: 5vh 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    .card{
+        position: relative;
+        height: 50%;
+        margin: 15px;
+        background-color: white;
+        text-align: center;
+        box-shadow: 4px 5px 7px black;
+        button{
+            padding: 10px;
+            margin: 10px;
+            background-color: #576F72;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgb(106, 179, 63);
+                font-size: medium;
+            }
+        }
+
+        
+    }
+ 
+
+}
+
+img{
+    height: 200px;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.bookedtrue{
+    display: box;
+    position: absolute;
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    h3{
+        color: rgb(239, 243, 247);
+    }
+}
+.bookedfalse{
+    display: box;
+    position: absolute;
+    width: 100%;
+    background-color: green;
+    padding: 5px;
+    h3{
+        color: rgb(239, 243, 247);
+    }
+}
