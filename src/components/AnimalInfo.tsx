@@ -42,9 +42,29 @@ const AnimalInfo = () =>{
                         <h3>OM</h3>
                         <p>{animal.description}</p>
                     </div>
-                    <div className="animal-stats">
-                        <h4 className='dark-h4'>Kön</h4> <h4 className='light-h4'>{animal.gender}</h4>
-                    </div>
+                    <table className="animal-stats">
+                        <tr>
+                            <td>Kön</td>
+                            <td className='stats-value'>{animal.gender}</td>
+                        </tr>
+                        <tr>
+                            <td>Ålder</td>
+                            <td className='stats-value'>{animal.born}</td>
+                        </tr>
+                        <tr>
+                            <td>Plats</td>
+                            <td className='stats-value'>{animal.location}</td>
+                        </tr>
+                        <tr>
+                            <td>Typ</td>
+                            <td className='stats-value'>{animal.type}</td>
+                        </tr>
+                        <tr>
+                            <td>Bokad</td>
+                            <td className='stats-value'>{animal.booked}</td>
+                        </tr>
+
+                    </table>
                     
                 </div>
                 
