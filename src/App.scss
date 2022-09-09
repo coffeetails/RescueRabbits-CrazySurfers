@@ -9,6 +9,13 @@
   size: 14px;
 }
 
+// because selections, inputs and buttons have special rules
+select, input, button {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: base.$clr-font;
+  font-size: 14px;
+}
+
 * h1 {
   size: 64px;
 }
