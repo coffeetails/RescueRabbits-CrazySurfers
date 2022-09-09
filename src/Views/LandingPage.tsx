@@ -11,6 +11,7 @@ const LandingPage = () => {
         <>
             <Header/>
             <h1>Landing Page</h1>
+            <Search />
             <Animal />
             <Footer />
         </>

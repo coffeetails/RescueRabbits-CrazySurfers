@@ -48,6 +48,11 @@ const Footer = () => {
             <option value="otheranimals">Övriga djur</option>
           </select>
           
+          <label className="switchBox">
+            <input type="checkbox" />
+            <span className="slider">Alla &nbsp; Obokade</span>
+          </label>
+
         </section>
     )
 }
