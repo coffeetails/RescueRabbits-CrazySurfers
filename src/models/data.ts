@@ -8,5 +8,6 @@ export interface AnimalDis {
     booked: boolean;
     img?: string;
     desc?: string;
+    animalId?: number;
 
 }
