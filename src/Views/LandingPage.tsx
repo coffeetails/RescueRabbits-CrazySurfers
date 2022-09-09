@@ -13,7 +13,7 @@ const LandingPage = () =>{
     const navigate = useNavigate();
     
 
-    const animalOnClick = (animal) =>{
+    const animalOnClick = (animal: any ) =>{
         
 
         

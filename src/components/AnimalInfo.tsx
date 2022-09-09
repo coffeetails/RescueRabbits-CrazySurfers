@@ -5,7 +5,15 @@ import Header from "./Header";
 
 
 const AnimalInfo = () =>{
-    const { state } = useLocation();
+
+    //to give state a proper type so it doesnt show error
+    type LocationProps = {
+        state: {
+          animal: Location;
+        };
+      };
+    const { state } = useLocation() as LocationProps;
+
     const animal = state.animal;
 
     let animalArray: any[] = [];
@@ -33,7 +41,7 @@ const AnimalInfo = () =>{
            <Header />
             <section className="animal-info">
             {animalArray.map(animal => ( 
-                <div className="animal-card" key={animal.animalId}>
+                <section className="animal-card" key={animal.animalId}>
                     <div className="animal-img">
                         <h2>{animal.name}</h2>
                         <img src={animal.img} alt="" />
@@ -43,6 +51,7 @@ const AnimalInfo = () =>{
                         <p>{animal.description}</p>
                     </div>
                     <table className="animal-stats">
+                        <tbody>
                         <tr>
                             <td>Kön</td>
                             <td className='stats-value'>{animal.gender}</td>
@@ -63,10 +72,10 @@ const AnimalInfo = () =>{
                             <td>Bokad</td>
                             <td className='stats-value'>{animal.booked}</td>
                         </tr>
-
+                    </tbody>
                     </table>
                     
-                </div>
+                </section>
                 
             ))};
                     
