@@ -3,7 +3,18 @@
 .search {
   background-color: base.$clr-accent-focus;
   padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+select, input {
+  height: 27px;
+}
+
 
 .switchBox {
   position: relative;
@@ -38,24 +49,25 @@
   content: "";
   height: 25px;
   width: 40px;
-  border: 1px solid gray;
-  border-radius: base.$radius;
+  border: base.$borderStyle;
+  border-radius: base.$radius 0.8rem 0.8rem base.$radius;
   left: -1px;
   bottom: -1px;
-  background-color: base.$clr-bg-focus;
+  background-color: white;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #e2c268;
+  background-color: #c2c2c2;
 }
 
 input:focus + .slider {
   border-radius: base.$radius;
-  box-shadow: 0 0 0 2px black;
+  box-shadow: 0 0 0 2px black, 0 0 0 3px white;
 }
 
 input:checked + .slider:before {
   transform: translateX(40px);
   width: 77px;
+  border-radius: 0.8rem base.$radius base.$radius 0.8rem;
 }
