@@ -7,15 +7,31 @@ import './search.scss';
 
 const Footer = () => {
 
-  function doSearch() {
-    console.log("ohai");
+  function doSearch(event:  React.ChangeEvent<HTMLInputElement>) {
+    console.log("le event", event.target.value);
+  }
+
+  function filterLocation(event:  React.ChangeEvent<HTMLInputElement>) {
+    console.log("filterLocation", event.target.value);
+  }
+
+  function filterAge(event: React.ChangeEvent<HTMLInputElement>) {
+    console.log("filterAge", event.target.value);
+  }
+
+  function filterType(event:  React.ChangeEvent<HTMLInputElement>) {
+    console.log("filterType", event.target.value);
+  }
+
+  function onlyBooked(event:  React.ChangeEvent<HTMLInputElement>) {
+    console.log("onlyBooked", event.target.value);
   }
 
   return (
     <section className="search">
       <input placeholder='Sök' onChange={doSearch} />
       
-      <select>
+      <select onChange={filterLocation} >
         <option value="">Plats</option>
         <option value="arvika">Arvika</option>
         <option value="charlottenberg">Charlottenberg</option>
@@ -29,7 +45,7 @@ const Footer = () => {
         <option value="amotfors">Åmotfors</option>
       </select>
 
-      <select>
+      <select onChange={filterAge} >
         <option value="">Ålder</option>
         <option value="zero">0-1år</option>
         <option value="one">1-2år</option>
@@ -40,7 +56,7 @@ const Footer = () => {
         <option value="ten">10+ år</option>
       </select>
 
-      <select>
+      <select onChange={filterType} >
         <option value="">Djurtyp</option>
         <option value="bunnies">Kaniner</option>
         <option value="guenapigs">Marsvin</option>
@@ -52,7 +68,8 @@ const Footer = () => {
         <option value="otheranimals">Övriga djur</option>
       </select>
       
-      <label className="switchBox">
+      {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
+      <label className="switchBox" onChange={onlyBooked} >
         <input type="checkbox" />
         <span className="slider">Alla &nbsp; Obokade</span>
       </label>
