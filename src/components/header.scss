@@ -1,6 +1,7 @@
 @use '../base';
 
 .nav {
+  position: sticky;
   border-bottom: 1px solid base.$clr-gray700;
   padding: 15px;
   background-color: #f0ebe3;
