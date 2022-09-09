@@ -4,13 +4,22 @@ import Header from "../components/Header";
 import { AnimalDis } from "../models/data";
 import jsonData from '../animals.json'
 import { useState } from "react";
+import { useNavigate } from 'react-router'
+
 
 
 const LandingPage = () =>{
     const [animals, setAnimals] = useState<AnimalDis[]>(jsonData.animals)
+    const navigate = useNavigate();
+    
 
     const animalOnClick = (animal) =>{
-        console.log(animal);
+        
+
+        
+        
+        navigate('/AnimalInfo' , {state:{animal}})
+        return animal; 
         
     }
 

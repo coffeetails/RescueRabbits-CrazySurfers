@@ -5,14 +5,17 @@ interface Props {
     animals: AnimalDis[];
     animalOnClick: (animalId: number) => void;
 }
+
 const AnimalGrid = ({animals, animalOnClick}: Props) =>{
+
     return(  
+
             <section className="grid-container"> 
                 {animals.map(animal => (
               
                     <AnimalCard key={animal.animalId} animal={animal} animalOnClick={animalOnClick}/>
             
-                ))}
+                 ))};
              </section>   
     )
 }
