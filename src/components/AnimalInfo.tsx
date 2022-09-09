@@ -2,6 +2,8 @@ import './animalinfo.scss'
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
+import AnimalForum from './AnimalForum';
+import { useState } from "react";
 
 
 const AnimalInfo = () =>{
@@ -21,20 +23,16 @@ const AnimalInfo = () =>{
     animalArray.push(animal);
     
     animalArray.map(animal =>{
+
         if (animal.booked == true) {
             animal.booked = 'Ja'
-            
-            
         }
         
         if (animal.booked == false) {
-            animal.booked = 'Nej'
-            
-        }
-       
-        
+            animal.booked = 'Nej'  
+        }  
     })
-    
+
     
     return(
         <>
@@ -75,11 +73,13 @@ const AnimalInfo = () =>{
                     </tbody>
                     </table>
                     
-                </section>
-                
+                </section>  
             ))};
                     
-                
+                <div className='arrow'>
+                    <div className='arrow-shape'></div>
+                </div>
+                <AnimalForum  />
             </section>
            <Footer />
         </>

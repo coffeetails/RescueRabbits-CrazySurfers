@@ -1,13 +1,14 @@
 
 .animal-info{
     background-color: #7D9D9C;
-
+    width: 100%;
     .animal-card{
         padding: 5vw ;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
+        background-color: #576F72;
         
     }
 }
@@ -18,10 +19,11 @@
     text-align: center;
     box-shadow: 4px 0px 10px black;
     height: 20rem;
+    
 
     img{
         height: 91.5%;
-        width: 20rem;
+        width: 100%;
         object-fit: cover;
     }
     
@@ -61,10 +63,27 @@ tbody{
     border-spacing: 0px 1rem;
 }
 td{
-    background-color: #576F72;
+    background-color: #7D9D9C;
     color: white;
     padding: 14px;
     width: 50vw;
     text-align: center;
 }
 
+.arrow{
+    margin-top: -2.3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 15px 10px #576F72; 
+    margin-bottom: 5vh;
+    
+    .arrow-shape{
+        width: 0;
+        height: 0;
+        border-top: 20vh solid #576F72;
+        border-left: 45vw solid transparent;
+        border-right: 45vw solid transparent; 
+        
+    }
+}
