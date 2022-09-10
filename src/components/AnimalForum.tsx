@@ -9,16 +9,16 @@ const AnimalForum = () => {
     const navigate = useNavigate();
     const [fullName, setFullName] = useState('');
     const [phone, setPhone] = useState('');
+    let infoArray: any[] = [];
+    
+    
     const submitForm = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        console.log(fullName);
-        console.log(phone);
-        console.log(event);
+        infoArray.push(fullName);
+        alert('Tack för din ansökan ' + infoArray)
         
-        console.log('tack för din ansökan' + {setFullName});
+        navigate('/')
         
-        //navigate('/')
-        return <Footer />
     }
     return(
 
