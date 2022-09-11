@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 import  LandingPage  from "./Views/LandingPage";
 import  About  from "./Views/About";
 import  Adoption  from "./Views/Adoption";
+import AnimalInfo from './components/AnimalInfo';
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/About' element={<About/>}/>
         <Route path='/Adoption' element={<Adoption/>}/>
+        <Route path='/AnimalInfo' element={<AnimalInfo/>}/>
+
       </Routes>
     </div>
   )
