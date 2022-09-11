@@ -2,14 +2,15 @@
 
 $footerBg: #F0EBE3;
 $footerClr: #000;
-$icon-height: 64px;
-$icon-weight: 64px;
+$icon-height: 50px;
+$icon-weight: 50px;
 
 
 .footer {
     width: 100%;
     padding: 15px;
     height: 100%;
+ main
     background-color: $footerBg;
     color: $footerClr;
     display: flex;

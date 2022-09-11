@@ -1,0 +1,81 @@
+@use '../_base.scss';
+
+@mixin info-containers {
+    background-color: white;
+    width: 570px;
+    height: 290px;
+    margin-bottom: 1.9rem;
+    padding: 3rem;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@mixin info-h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+}
+
+@mixin info-p {
+    font-weight: 400;
+    font-size: 14px;   
+}
+
+.about-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4DCCF;
+}
+
+.big-info {
+    display: flex;
+    flex-wrap: wrap;   
+    background-color: #576F72;
+    margin: 5rem;
+    padding: 5rem;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.title-p {
+    color: white;
+    margin: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title-h1 {
+    color: white;
+    font-weight: 400;
+    margin: 2rem;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.small-info {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    line-height: 1.8rem;
+    padding-bottom: 9rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.info-left {
+    @include info-containers;
+}
+
+.info-right {
+    @include info-containers;
+}
+
+
+.info-h3 {
+    @include info-h3;
+}
+
+.info-p {
+    @include info-p;
+}
