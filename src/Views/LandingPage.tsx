@@ -23,7 +23,7 @@ const LandingPage = () =>{
         <>
             <Header/>
             <h1>Landing Page</h1>
-            <Search />
+            <Search animals={animals} />
             <AnimalGrid  animals={animals} animalOnClick={animalOnClick}/>
             <Footer />
         </>

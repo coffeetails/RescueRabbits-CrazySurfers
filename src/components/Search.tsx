@@ -1,10 +1,9 @@
 import './search.scss';
-import animalsJson from '../animals.json';
 import { AnimalDis } from '../models/data';
 
 
 // TODO: Create the actual search. Duh!
-// TODO: Implement the interface
+// TODO: Implement the interface/model
 
 
 interface Props {
@@ -47,11 +46,11 @@ function Search({animals}: Props) {
     let returnArray: string[] = [];
 
     if(filterValue == "location") {
-      returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.location))];
+      returnArray = [...new Set(animals.map(animalData => animalData.location))];
     } else if(filterValue == "type") {
-      returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.type))];
+      returnArray = [...new Set(animals.map(animalData => animalData.type!))];
     }
-
+   
     return returnArray;
   }
 

@@ -3,10 +3,12 @@
 .search {
   background-color: base.$clr-accent-focus;
   padding: 10px;
+  margin: 20px auto;
+  width: fit-content;
 
   display: flex;
+  gap: 5px;
   align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
 }
