@@ -1,39 +1,57 @@
 import './search.scss';
+// import animals from '../animals.json';
+import { AnimalDis } from '../models/data';
 
 // TODO: Change so that values avalible in the drop down menues
 //      are fetched from the animals.json file to create less
 //      maintenance work in the project.
 // TODO: Create the actual search. Duh!
+interface Props {
+  animals: AnimalDis[];
+} 
 
-const Footer = () => {
 
-  function doSearch(event:  React.ChangeEvent<HTMLInputElement>) {
+function Search({animals}: Props) {
+  console.log("animals", animals);
+  // event: object 
+  // Property 'target' does not exist on type 'object'.ts(2339)
+
+  // event: React.ChangeEvent<HTMLInputElement>
+  // Type '(event: ChangeEvent<HTMLInputElement>) => void' is not assignable to type 'ChangeEventHandler<HTMLSelectElement>'.
+  // Types of parameters 'event' and 'event' are incompatible.
+  // Type 'ChangeEvent<HTMLSelectElement>' is not assignable to type 'ChangeEvent<HTMLInputElement>'.
+  // Type 'HTMLSelectElement' is missing the following properties from type 'HTMLInputElement': accept, align, alt, capture, and 37 more.ts(2322)
+
+  function doSearch(event: any) {
     console.log("le event", event.target.value);
   }
 
-  function filterLocation(event:  object) {
+  function filterLocation(event: any) {
     console.log("filterLocation", event.target.value);
   }
 
-  function filterAge(event: React.ChangeEvent<HTMLInputElement>) {
+  function filterAge(event: any) {
     console.log("filterAge", event.target.value);
   }
 
-  function filterType(event:  React.ChangeEvent<HTMLInputElement>) {
+  function filterType(event: any) {
     console.log("filterType", event.target.value);
   }
 
-  function onlyBooked(event:  React.ChangeEvent<HTMLInputElement>) {
+  function onlyBooked(event: any) {
     console.log("onlyBooked", event.target.value);
   }
-
+  
   return (
     <section className="search">
       <input placeholder='Sök' onChange={doSearch} />
       
       <select onChange={filterLocation} >
         <option value="">Plats</option>
-        <option value="arvika">Arvika</option>
+        {animals?.map(animal => (
+          <option value="{animal.location}">{animal.location}</option>
+        ))}
+        {/* <option value="arvika">Arvika</option>
         <option value="charlottenberg">Charlottenberg</option>
         <option value="hagfors">Hagfors</option>
         <option value="hammaro">Hammarö</option>
@@ -42,7 +60,7 @@ const Footer = () => {
         <option value="sunne">Sunne</option>
         <option value="saffle">Säffle</option>
         <option value="torsby">Torsby</option>
-        <option value="amotfors">Åmotfors</option>
+        <option value="amotfors">Åmotfors</option> */}
       </select>
 
       <select onChange={filterAge} >
@@ -77,4 +95,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Search;
