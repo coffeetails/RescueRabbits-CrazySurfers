@@ -2,14 +2,14 @@ import './search.scss';
 import animalsJson from '../animals.json';
 import { AnimalDis } from '../models/data';
 
-// TODO: Change so that values avalible in the drop down menues
-//      are fetched from the animals.json file to create less
-//      maintenance work in the project.
+
 // TODO: Create the actual search. Duh!
+// TODO: Implement the interface
+
+
 interface Props {
   animals: AnimalDis[];
 } 
-
 
 function Search({animals}: Props) {
 
@@ -45,11 +45,13 @@ function Search({animals}: Props) {
 
   function findUniqueValues(filterValue: string) {
     let returnArray: string[] = [];
+
     if(filterValue == "location") {
       returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.location))];
     } else if(filterValue == "type") {
       returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.type))];
     }
+
     return returnArray;
   }
 
