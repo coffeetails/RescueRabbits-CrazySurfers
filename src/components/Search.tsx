@@ -11,7 +11,7 @@ const Footer = () => {
     console.log("le event", event.target.value);
   }
 
-  function filterLocation(event:  React.ChangeEvent<HTMLInputElement>) {
+  function filterLocation(event:  object) {
     console.log("filterLocation", event.target.value);
   }
 
