@@ -15,7 +15,7 @@ const AnimalGrid = ({animals, animalOnClick}: Props) =>{
               
                     <AnimalCard key={animal.animalId} animal={animal} animalOnClick={animalOnClick}/>
             
-                 ))};
+                 ))}
              </section>   
     )
 }

@@ -2,10 +2,20 @@ import './animalinfo.scss'
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
+import AnimalForum from './AnimalForum';
+import { useState } from "react";
 
 
 const AnimalInfo = () =>{
-    const { state } = useLocation();
+
+    //to give state a proper type so it doesnt show error
+    type LocationProps = {
+        state: {
+          animal: Location;
+        };
+      };
+    const { state } = useLocation() as LocationProps;
+
     const animal = state.animal;
 
     let animalArray: any[] = [];
@@ -13,27 +23,23 @@ const AnimalInfo = () =>{
     animalArray.push(animal);
     
     animalArray.map(animal =>{
+
         if (animal.booked == true) {
             animal.booked = 'Ja'
-            
-            
         }
         
         if (animal.booked == false) {
-            animal.booked = 'Nej'
-            
-        }
-       
-        
+            animal.booked = 'Nej'  
+        }  
     })
-    
+
     
     return(
         <>
            <Header />
             <section className="animal-info">
             {animalArray.map(animal => ( 
-                <div className="animal-card" key={animal.animalId}>
+                <section className="animal-card" key={animal.animalId}>
                     <div className="animal-img">
                         <h2>{animal.name}</h2>
                         <img src={animal.img} alt="" />
@@ -43,6 +49,7 @@ const AnimalInfo = () =>{
                         <p>{animal.description}</p>
                     </div>
                     <table className="animal-stats">
+                        <tbody>
                         <tr>
                             <td>Kön</td>
                             <td className='stats-value'>{animal.gender}</td>
@@ -63,14 +70,16 @@ const AnimalInfo = () =>{
                             <td>Bokad</td>
                             <td className='stats-value'>{animal.booked}</td>
                         </tr>
-
+                    </tbody>
                     </table>
                     
-                </div>
-                
+                </section>  
             ))};
                     
-                
+                <div className='arrow'>
+                    <div className='arrow-shape'></div>
+                </div>
+                <AnimalForum  />
             </section>
            <Footer />
         </>

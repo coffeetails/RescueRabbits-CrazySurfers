@@ -8,12 +8,12 @@ const Footer = () => {
 
     return (
         <section className="footer">
-            <article>
+            <article className='copy-right'>
                 <p className='headline'>Rescue rabbits</p>
                 <p>© 2022</p>
                 <p>Privacy Terms</p>
             </article>
-            <article>
+            <article >
                 <a href="#" className="fa fa-facebook"></a>
                 <a href="#" className="fa fa-twitter"></a>
                 <a href="#" className="fa fa-instagram"></a>

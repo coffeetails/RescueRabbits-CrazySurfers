@@ -13,24 +13,19 @@ const LandingPage = () =>{
     const [animals, setAnimals] = useState<AnimalDis[]>(jsonData.animals)
     const navigate = useNavigate();
     
-// TODO animal needs a type
-    const animalOnClick = (animal) =>{
-        
 
-        
-        
+    const animalOnClick = (animal: any ) =>{
         navigate('/AnimalInfo' , {state:{animal}})
         return animal; 
-        
     }
 
     return(
         <>
-        <Header/>
-        <h1>Landing Page</h1>
-        <Search />
-        <AnimalGrid  animals={animals} animalOnClick={animalOnClick}/>
-        <Footer />
+            <Header/>
+            <h1>Landing Page</h1>
+            <Search />
+            <AnimalGrid  animals={animals} animalOnClick={animalOnClick}/>
+            <Footer />
         </>
     )
 }
