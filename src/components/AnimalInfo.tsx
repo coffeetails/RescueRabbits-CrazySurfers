@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 import AnimalForum from './AnimalForum';
-import { useState } from "react";
 
 
 const AnimalInfo = () =>{
