@@ -16,7 +16,6 @@ const AnimalForum = () => {
     const submitForm = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         infoArray.push(fullName);
-        /* alert('Tack för din ansökan ' + infoArray)  */
         console.log(infoArray);
         {setOpenModal(true)}
     }
@@ -28,9 +27,9 @@ const AnimalForum = () => {
                 <label htmlFor="fullName">För och efternamn *</label>
                 <input type="text" id='fullName'   value={fullName} onChange={(e) => setFullName(e.target.value)} required/>
                 <label htmlFor="phone">Telefonnummer *</label>
-                <input type="text" id='phone' name='phone' required/>
+                <input type="text" id='phone' name='phone' required maxLength={10} minLength={10}/>
                 <label htmlFor="email">E-post *</label>
-                <input type="text" id='email' name='email' required/>
+                <input type="email" id='email' name='email' required  placeholder='exempel@hotmail.com'/>
                 <label htmlFor="currentAnimalInfo">Nuvarande djur i hemmet</label>
                 <textarea name="" id="currentAnimalInfo" cols={30} rows={15} ></textarea>
                 <label htmlFor="currentHomeInfo">Hem och familjesituation</label>
