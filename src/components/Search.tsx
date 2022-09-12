@@ -1,5 +1,5 @@
 import './search.scss';
-// import animals from '../animals.json';
+import animalsJson from '../animals.json';
 import { AnimalDis } from '../models/data';
 
 // TODO: Change so that values avalible in the drop down menues
@@ -12,7 +12,7 @@ interface Props {
 
 
 function Search({animals}: Props) {
-  console.log("animals", animals);
+
   // event: object 
   // Property 'target' does not exist on type 'object'.ts(2339)
 
@@ -42,25 +42,27 @@ function Search({animals}: Props) {
     console.log("onlyBooked", event.target.value);
   }
   
+
+  function findUniqueValues(filterValue: string) {
+    let returnArray: string[] = [];
+    if(filterValue == "location") {
+      returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.location))];
+    } else if(filterValue == "type") {
+      returnArray = [...new Set(animalsJson.animals.map(animalData => animalData.type))];
+    }
+    return returnArray;
+  }
+
+
   return (
     <section className="search">
       <input placeholder='Sök' onChange={doSearch} />
       
       <select onChange={filterLocation} >
         <option value="">Plats</option>
-        {animals?.map(animal => (
-          <option value="{animal.location}">{animal.location}</option>
+        {findUniqueValues("location").map(location => (
+          <option value={location.toLocaleLowerCase()}>{location}</option>
         ))}
-        {/* <option value="arvika">Arvika</option>
-        <option value="charlottenberg">Charlottenberg</option>
-        <option value="hagfors">Hagfors</option>
-        <option value="hammaro">Hammarö</option>
-        <option value="karlstad">Karlstad</option>
-        <option value="kristinehamn">Kristinehamn</option>
-        <option value="sunne">Sunne</option>
-        <option value="saffle">Säffle</option>
-        <option value="torsby">Torsby</option>
-        <option value="amotfors">Åmotfors</option> */}
       </select>
 
       <select onChange={filterAge} >
@@ -76,14 +78,9 @@ function Search({animals}: Props) {
 
       <select onChange={filterType} >
         <option value="">Djurtyp</option>
-        <option value="bunnies">Kaniner</option>
-        <option value="guenapigs">Marsvin</option>
-        <option value="hampsters">Hamstrar</option>
-        <option value="cats">Katter</option>
-        <option value="chincills">Chinchillor</option>
-        <option value="dogs">Hundar</option>
-        <option value="rats">Tamråttor</option>
-        <option value="otheranimals">Övriga djur</option>
+        {findUniqueValues("type").map(type => (
+          <option value={type.toLocaleLowerCase()}>{type}</option>
+        ))}
       </select>
       
       {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
