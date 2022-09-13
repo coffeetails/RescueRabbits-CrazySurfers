@@ -15,5 +15,6 @@ $shadow:  5px 5px 10px #353535;
 
 @mixin contentWidth($margin: 2rem auto) {
   width: 80vw;
+  max-width: 800px;
   margin: $margin;
 }

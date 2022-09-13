@@ -1,0 +1,46 @@
+@use '../base.scss';
+
+.form-container{
+    padding: 5vh 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    @include base.contentWidth;
+    
+    
+}
+ 
+.animal-form {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: center;
+}
+
+ .frm-label{
+     background-color: base.$clr-accent-focus;
+     font-size: 20px;
+     padding: 5px;
+     margin-top: 5px;
+     width: 100%;
+     color: white;
+     text-align: center;    
+}
+
+.frm-input{
+     width: 100%;
+     height: 5vh;
+     margin-bottom: 5vh;
+}
+
+.frm-textarea{
+     width: 100%;
+     margin-bottom: 5vh;
+    
+
+}
+.submit-btn{
+    justify-self: center;
+    padding: 0.8rem 2rem;
+}
