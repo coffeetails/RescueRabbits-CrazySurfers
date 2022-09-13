@@ -169,52 +169,28 @@
 			"animalId": 14
 		},
 		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "", 
+			"name": "Stimmlimm",
+			"born": "2022-04-12",
+			"location": "Arvika",
+			"gender": "Blandat", 
 			"type": "övriga djur",
-			"arrival": "",
+			"arrival": "2022-07-21",
 			"booked": false,
-			"img": "",
-			"description": "",
+			"img": "src\\images\\animals-photo\\stimmlimm.jpg",
+			"description": "Ett vackert akvarium som söker ett nytt hem. Fiskarna är väldigt sociala och gillar att leka genom att röra ett finger framför glasrutan. Trivs bäst i ett hem utan småbarn då allt liv och rörelse stressar upp fiskarna.",
 			"animalId": 15
 		},
 		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
+			"name": "Helge",
+			"born": "2020-04-19",
+			"location": "Säffle",
+			"gender": "Hona",
 			"type": "övriga djur",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
+			"arrival": "2021-08-05",
+			"booked": true,
+			"img": "src\\images\\animals-photo\\helge.jpg",
+			"description": "En ung sköldpadda som barnet tyvärr tröttnade på så hon söker nu ny familj. Hon behöver en van ägare som kan ge Helge det tålamod som behövs för att bli en social och busig sköldpadda. Varje dag så blir hon modigare och modigare, hon vågar nästan ta mat från handen nu.",
 			"animalId": 16
-		},
-		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
-			"type": "övriga djur",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
-			"animalId": 17
-		},
-		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
-			"type": "",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
-			"animalId": 18
 		}
 	]
 }
