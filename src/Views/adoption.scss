@@ -4,24 +4,26 @@
 @mixin review-box {
     font-weight: 400;
     background-color: #7D9D9C;
-    margin-bottom: 1.6rem;
-    padding: 1.5rem;
+    margin: 2rem 5rem 4rem 5rem;
+    padding: 2.5rem;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-@mixin margin-boxes {
-    margin: 4rem 10rem 10rem 14rem;
-}
 
 .info-flex-container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    margin: auto;
     align-items: center;
     background-color: #E4DCCF;
 }
 
 .info-adopt {
-    @include margin-boxes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 4rem 10rem 10rem 14rem;
 }
 
 // .info-adopt h1 {
@@ -36,17 +38,12 @@
 //     line-height: 35px;
 // }
 
-.customer-article {
-    @include margin-boxes;    
-}
-
 .reviews {
     @include review-box;
-
 }
 
 .title-review {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
 }
 

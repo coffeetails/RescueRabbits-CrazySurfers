@@ -28,7 +28,7 @@ const Adoption = () => {
                 Från andra som har adopterat djur
                 </h3>
             </article>
-            <article className="customer-article">
+            <article>
                 <div className="reviews">
                     <p>ANNA</p>
                     <p>2022-08-14</p>
