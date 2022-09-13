@@ -1,4 +1,4 @@
-
+@use  "/src/_animation.scss";
 .modal-container{
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
     border-radius: 15px;
     width: 85%;
     height: 50%;
-
+    @include animation.Bounce-up;
     h1{
         font-size: larger;
     }
