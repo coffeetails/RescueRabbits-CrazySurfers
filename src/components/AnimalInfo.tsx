@@ -73,7 +73,7 @@ const AnimalInfo = () =>{
                     </table>
                     
                 </section>  
-            ))};
+            ))}
                     
                 <div className='arrow'>
                     <div className='arrow-shape'></div>

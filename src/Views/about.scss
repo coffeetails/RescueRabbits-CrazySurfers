@@ -6,7 +6,7 @@
     height: 290px;
     margin-bottom: 1.9rem;
     padding: 3rem;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: base.$shadow;
 }
 
 @mixin info-h3 {
@@ -33,7 +33,7 @@
     background-color: #576F72;
     margin: 5rem;
     padding: 5rem;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: base.$shadow;
 }
 
 
@@ -63,14 +63,9 @@
 }
 
 
-.info-left {
+.info-left .info-right {
     @include info-containers;
 }
-
-.info-right {
-    @include info-containers;
-}
-
 
 .info-h3 {
     @include info-h3;
