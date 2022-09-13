@@ -4,18 +4,19 @@
   background-color: base.$clr-accent-focus;
   padding: 10px;
   margin: 20px auto;
-  width: fit-content;
+  border-radius: base.$radius;
 
   display: flex;
   gap: 5px;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   flex-direction: row;
+  select, input {
+    height: 27px;
+  }
 }
 
-.search select, .search input {
-  height: 27px;
-}
 
 
 .switchBox {
