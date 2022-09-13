@@ -10,14 +10,12 @@ $icon-weight: 50px;
     width: 100%;
     padding: 15px;
     height: 100%;
- main
     background-color: $footerBg;
     color: $footerClr;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* position: fixed;  Den va sticky så jag kommentera bort den // chia */
     left:0;
     bottom:0;
     right:0;
