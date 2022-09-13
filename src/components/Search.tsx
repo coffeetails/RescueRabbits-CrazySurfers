@@ -3,14 +3,13 @@ import { AnimalDis } from '../models/data';
 
 
 // TODO: Create the actual search. Duh!
-// TODO: Implement the interface/model
 
 
 interface Props {
   animals: AnimalDis[];
 } 
 
-function Search({animals}: Props) {
+const Search = ({animals}: Props) => {
 
   // event: object 
   // Property 'target' does not exist on type 'object'.ts(2339)
