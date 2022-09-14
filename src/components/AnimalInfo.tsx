@@ -2,7 +2,7 @@ import './animalinfo.scss'
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import AnimalForum from './AnimalForum';
+import AnimalForum from './AnimalForm';
 
 
 const AnimalInfo = () =>{
@@ -77,7 +77,7 @@ const AnimalInfo = () =>{
                     </table>
                     
                 </section>  
-            ))};
+            ))}
                     
                 <div className='arrow'>
                     <div className='arrow-shape'></div>

@@ -11,15 +11,6 @@ interface Props {
 
 const Search = ({animals}: Props) => {
 
-  // event: object 
-  // Property 'target' does not exist on type 'object'.ts(2339)
-
-  // event: React.ChangeEvent<HTMLInputElement>
-  // Type '(event: ChangeEvent<HTMLInputElement>) => void' is not assignable to type 'ChangeEventHandler<HTMLSelectElement>'.
-  // Types of parameters 'event' and 'event' are incompatible.
-  // Type 'ChangeEvent<HTMLSelectElement>' is not assignable to type 'ChangeEvent<HTMLInputElement>'.
-  // Type 'HTMLSelectElement' is missing the following properties from type 'HTMLInputElement': accept, align, alt, capture, and 37 more.ts(2322)
-
   function doSearch(event: any) {
     console.log("le event", event.target.value);
   }
