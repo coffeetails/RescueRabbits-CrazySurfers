@@ -2,7 +2,7 @@
 	"animals": [
 		{
 			"name": "Roffe",
-			"born": "2 år", 
+			"born": "2018-09-22", 
 			"location": "Karlstad",
 			"gender": "Hane",
 			"type": "Katt",
@@ -14,7 +14,7 @@
 		},
 		{
 			"name": "Tobbe",
-			"born": "4 år",
+			"born": "2020-07-27",
 			"location": "Hammarö",
 			"gender": "Hane",
 			"type": "Katt",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Jordan",
-			"born": "1 år",
+			"born": "2022-03-19",
 			"location": "Hagfors",
 			"gender": "Hane",
 			"type": "Kanin",
@@ -38,7 +38,7 @@
 		},
 		{
 			"name": "Jonna",
-			"born": "6 mån",
+			"born": "2022-02-04",
 			"location": "Sunne",
 			"gender": "Hona",
 			"type": "Kanin",
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Tequilla och Nikita",
-			"born": "8 mån",
+			"born": "2022-06-17",
 			"location": "Karlstad",
 			"gender": "Honor",
 			"type": "Chinchilla",
@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "Hans och Gösta",
-			"born": "3 år",
+			"born": "2021-01-01",
 			"location": "Säffle",
 			"gender": "Hanar",
 			"type": "Chinchilla",
@@ -74,7 +74,7 @@
 		},
 		{
 			"name": "Kreti och Pleti",
-			"born": "1 år",
+			"born": "2021-03-02",
 			"location": "Arvika",
 			"gender": "Honor",
 			"type": "Tamråttor",
@@ -86,7 +86,7 @@
 		},
 		{
 			"name": "Yin och Yang",
-			"born": "4 år",
+			"born": "2022-05-26",
 			"location": "Säffle",
 			"gender": "Honor",
 			"type": "Tamråttor",
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Maty",
-			"born": "4 mån",
+			"born": "2022-06-12",
 			"location": "Hammarö",
 			"gender": "Hona",
 			"type": "Hamster",
@@ -110,7 +110,7 @@
 		},
 		{
 			"name": "Håkan",
-			"born": "1 år 2 mån",
+			"born": "2019-12-24",
 			"location": "Arvika",
 			"gender": "Hane",
 			"type": "Hamster",
@@ -122,7 +122,7 @@
 		},
 		{
 			"name": "Maggan",
-			"born": "3 år",
+			"born": "2022-04-24",
 			"location": "Säffle",
 			"gender": "Hona",
 			"type": "Marsvin",
@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Magnus",
-			"born": "9 mån",
+			"born": "2021-08-04",
 			"location": "Karlstad",
 			"gender": "Hane",
 			"type": "Marsvin",
@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "Aina och Algot",
-			"born": "11 år",
+			"born": "2020-02-02",
 			"location": "Torsby",
 			"gender": "Blandat",
 			"type": "Hund",
@@ -158,7 +158,7 @@
 		},
 		{
 			"name": "Bowie",
-			"born": "4 år",
+			"born": "2019-03-08",
 			"location": "Charlottenberg",
 			"gender": "Hane",
 			"type": "Hund",
@@ -170,7 +170,7 @@
 		},
 		{
 			"name": "Stimmlimm",
-			"born": "Blandat",
+			"born": "",
 			"location": "Arvika",
 			"gender": "Blandat", 
 			"type": "övriga djur",
@@ -182,7 +182,7 @@
 		},
 		{
 			"name": "Helge",
-			"born": "5 år",
+			"born": "2021-01-02",
 			"location": "Säffle",
 			"gender": "Hona",
 			"type": "övriga djur",
