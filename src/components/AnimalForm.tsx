@@ -11,7 +11,6 @@ const AnimalForm = () => {
     const [openModal, setOpenModal] = useState(false)
     let infoArray: any[] = [];
     
-    
     const submitForm = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         infoArray.push(fullName);
@@ -24,7 +23,7 @@ const AnimalForm = () => {
             <form className='animal-form' onSubmit={submitForm}>
                 <h2>Intresseanmälan</h2>
                 <label className='frm-label' htmlFor="fullName">För och efternamn *</label>
-                <input className='frm-input' type="text" id='fullName'   value={fullName} onChange={(e) => setFullName(e.target.value)} required placeholder='Adam Svensson'/>
+                <input className='frm-input' type="text" id='fullName' value={fullName} onChange={(e) => setFullName(e.target.value)} required placeholder='Adam Svensson' />
 
                 <label  className='frm-label' htmlFor="phone">Telefonnummer *</label>
                 <input className='frm-input' type="text" id='phone' name='phone' required maxLength={10} minLength={10} placeholder='0788228822'/>

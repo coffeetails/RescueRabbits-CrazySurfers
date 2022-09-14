@@ -1,7 +1,6 @@
 @use '../_base.scss';
 
 .animal-info{
-    width: 100vw;
     .animal-card{
         padding: 5vw ;
         display: flex;
@@ -68,19 +67,17 @@ td{
 }
 
 .arrow{
-    margin-top: -2.3vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    // box-shadow: 4px 15px 10px base.$clr-accent; 
     margin-bottom: 5vh;
     
     .arrow-shape{
         width: 0;
         height: 0;
-        border-top: 10vh solid base.$clr-accent;
-        border-left: 100vw solid transparent;
-        border-right: 100vw solid transparent; 
+        border-top: 5vh solid base.$clr-accent;
+        border-left: 48vw solid transparent;
+        border-right: 48vw solid transparent; 
         
     }
 }
