@@ -23,10 +23,10 @@
     width: 85%;
     height: 50%;
     @include animation.Bounce-up;
-    h1{
+    .modal-h1{
         font-size: larger;
     }
-    button{
+    .modal-button{
         font-size: 16px;
         font-weight: bold;
         padding: 15px;

@@ -15,8 +15,8 @@ const Modal = ({closeModal, username}: Prop) =>{
         <section className='modal-container'>
             <div className='modal'>
 
-                <h1>Tack för din ansökan! <br/>{username}</h1>
-                <button onClick={closeBtn}>Stäng</button> 
+                <h1 className='modal-h1'>Tack för din ansökan! <br/>{username}</h1>
+                <button className='modal-button' onClick={closeBtn}>Stäng</button> 
             </div>
             
         </section>

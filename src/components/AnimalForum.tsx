@@ -23,7 +23,7 @@ const AnimalForum = () => {
 
         <section className="forum-container">
             <form className='animal-form' onSubmit={submitForm}>
-                <h1>Intresseanmälan</h1>
+                <h1 className='form-h1'>Intresseanmälan</h1>
                 <label className='frm-label' htmlFor="fullName">För och efternamn *</label>
                 <input className='frm-input' type="text" id='fullName'   value={fullName} onChange={(e) => setFullName(e.target.value)} required placeholder='Adam Svensson'/>
                 <label  className='frm-label' htmlFor="phone">Telefonnummer *</label>
