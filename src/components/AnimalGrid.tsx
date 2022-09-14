@@ -17,12 +17,13 @@ const AnimalGrid = ({animals, animalOnClick}: Props) =>{
     const filterLocation =(event: any) => {
         let currentLocation: string = event.target.value;
         
-        
+        console.log('searched Location: ' + currentLocation);
         animals.forEach(animal => {
             
             if (animal.location == currentLocation) {
-                console.log('this many ' + animal.location);
+                
                 console.log(animal); 
+                
                 return setfilteredAnimals(animal)
           
             }
