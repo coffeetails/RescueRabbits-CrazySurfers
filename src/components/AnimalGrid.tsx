@@ -19,7 +19,6 @@ const AnimalGrid = ({animals, animalOnClick}: Props) =>{
         console.log(event);
         console.log(animals);
         setfilteredAnimals(animals.filter(animal => animal.location == event.target.value));
-        // animals.filter(animal => animal.location == event.target.value);
         console.log(filteredAnimals);
     }
     console.log(typeof filteredAnimals);
