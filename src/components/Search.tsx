@@ -1,11 +1,6 @@
 import './search.scss';
 import { AnimalDis } from '../models/data';
 
-
-// TODO: Create the actual search. Duh!
-// TODO: Implement the interface/model
-
-
 interface Props {
   animals: AnimalDis[];
   doSearch: (event: any) => void;
@@ -13,19 +8,6 @@ interface Props {
 } 
 
 function Search({animals, doSearch, filterLocation}: Props) {
-
-  // event: object 
-  // Property 'target' does not exist on type 'object'.ts(2339)
-
-  // event: React.ChangeEvent<HTMLInputElement>
-  // Type '(event: ChangeEvent<HTMLInputElement>) => void' is not assignable to type 'ChangeEventHandler<HTMLSelectElement>'.
-  // Types of parameters 'event' and 'event' are incompatible.
-  // Type 'ChangeEvent<HTMLSelectElement>' is not assignable to type 'ChangeEvent<HTMLInputElement>'.
-  // Type 'HTMLSelectElement' is missing the following properties from type 'HTMLInputElement': accept, align, alt, capture, and 37 more.ts(2322)
-
-
-
-  
 
   function filterAge(event: any) {
     console.log("filterAge", event.target.value);

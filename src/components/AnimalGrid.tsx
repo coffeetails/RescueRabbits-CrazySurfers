@@ -9,36 +9,26 @@ interface Props {
 }
 
 const AnimalGrid = ({animals, animalOnClick}: Props) =>{
-    const [filteredAnimals, setfilteredAnimals] = useState({})
+    const [filteredAnimals, setfilteredAnimals] = useState(animals)
     function doSearch(event: any) {
         console.log("le event", event.target.value);
     }
- 
+
     const filterLocation =(event: any) => {
         let currentLocation: string = event.target.value;
-        
-        console.log('searched Location: ' + currentLocation);
-        animals.forEach(animal => {
-            
-            if (animal.location == currentLocation) {
-                
-                console.log(animal); 
-                
-                return setfilteredAnimals(animal)
-          
-            }
-   
-        })
-       
+        console.log(event);
+        console.log(animals);
+        setfilteredAnimals(animals.filter(animal => animal.location == event.target.value));
+        // animals.filter(animal => animal.location == event.target.value);
+        console.log(filteredAnimals);
     }
+    console.log(typeof filteredAnimals);
     
     return(  
         <section className="grid-container"> 
             <Search animals={animals} doSearch={doSearch} filterLocation={filterLocation}/>
-            {animals.map(animal => (
-              
+            {filteredAnimals.map(animal => (
                 <AnimalCard key={animal.animalId} animal={animal} animalOnClick={animalOnClick}/> 
-                
             ))} 
             
         </section>   
