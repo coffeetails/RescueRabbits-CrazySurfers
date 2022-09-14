@@ -19,7 +19,7 @@ const LandingPage = () =>{
         navigate('/AnimalInfo' , {state:{animal}})
         return animal; 
     }
-
+    
     
     return(
         <>
@@ -29,7 +29,7 @@ const LandingPage = () =>{
                 <p>Tack för att du har hittat hit! Rescue Rabbits råder alla som har möjlighet att utöka sin familj med ett djur att vända sig till ett djurhem och ge ett hemlöst djur ett tryggt liv. Att adoptera ett djur förändrar inte hela världen. Men det kan förändra någons hela värld.</p>
             </section>
             <section className="landingPageWrapper">
-                <AnimalGrid  animals={animals} animalOnClick={animalOnClick}/>
+                <AnimalGrid  animals={animals} animalOnClick={animalOnClick} />
             </section>
             <Footer />
         </>
