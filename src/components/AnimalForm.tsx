@@ -38,7 +38,7 @@ const AnimalForm = () => {
                 <label className='frm-label' htmlFor="currentHomeInfo">Hem och familjesituation</label>
                 <textarea className='frm-textarea' name="" id="currentHomeInfo" cols={30} rows={10} placeholder='Hur stor är eran familj, småbarn? Bor ni i hus eller lägenhet, har ni uteplats eller balkong? osv'></textarea>
 
-                <button className='submit-btn'>Ansök</button>
+                <button className='submit-btn'>Skicka in</button>
             </form>
             {openModal && <Modal username={fullName} closeModal={setOpenModal}/>}
         </section>

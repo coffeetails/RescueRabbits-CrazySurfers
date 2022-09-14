@@ -47,7 +47,7 @@ const Search = ({animals}: Props) => {
 
   return (
     <section className="search">
-      <input placeholder='Sök' onChange={doSearch} />
+      <input type='text' placeholder='🔍 Sök' onChange={doSearch} />
       
       <select onChange={filterLocation} >
         <option value="">Plats</option>
@@ -77,7 +77,7 @@ const Search = ({animals}: Props) => {
       {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
       <label className="switchBox" onChange={onlyBooked} >
         <input type="checkbox" />
-        <span className="slider">Alla &nbsp; Obokade</span>
+        <span className="slider">Alla &nbsp;&nbsp;&nbsp;&nbsp; Obokade</span>
       </label>
     </section>
   )

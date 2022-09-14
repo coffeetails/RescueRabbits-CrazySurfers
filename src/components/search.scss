@@ -12,8 +12,14 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-direction: row;
-  select, input {
+  
+  select {
     height: 27px;
+  }
+  input {
+    height: 27px;
+    padding: 0 5px;
+    border-radius: 20px;
   }
 }
 
