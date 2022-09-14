@@ -63,7 +63,7 @@
 }
 
 
-.info-left .info-right {
+.info-left , .info-right {
     @include info-containers;
 }
 
