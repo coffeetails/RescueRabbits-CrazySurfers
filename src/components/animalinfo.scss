@@ -1,7 +1,6 @@
 @use '../_base.scss';
 
 .animal-info{
-    // background-color: base.$clr-accent;
     width: 100vw;
     .animal-card{
         padding: 5vw ;
@@ -10,7 +9,6 @@
         flex-direction: row;
         justify-content: center;
         background-color: base.$clr-accent;
-        
     }
 }
 
@@ -54,9 +52,7 @@
 
     .stats-value{
         background-color: base.$clr-bg-focus;
-        color: black;
-        width: 60vw;
-        text-align: left;
+        color: base.$clr-font;
     }
 }
 
@@ -66,7 +62,7 @@ tbody{
 td{
     background-color: base.$clr-accent-focus;
     color: white;
-    padding: 14px;
+    padding: 10px;
     width: 50vw;
     text-align: center;
 }
