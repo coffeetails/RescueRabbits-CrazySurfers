@@ -5,17 +5,11 @@ interface Props {
   animals: AnimalDis[];
   doSearch: (event: any) => void;
   filterLocation: (event: any) => void;
+  filterType: (event: any) => void;
+  filterAge: (event: any) => void;
 } 
 
-function Search({animals, doSearch, filterLocation}: Props) {
-
-  function filterAge(event: any) {
-    console.log("filterAge", event.target.value);
-  }
-
-  function filterType(event: any) {
-    console.log("filterType", event.target.value);
-  }
+function Search({animals, doSearch, filterLocation, filterType, filterAge}: Props) {
 
   function onlyBooked(event: any) {
     console.log("onlyBooked", event.target.value);

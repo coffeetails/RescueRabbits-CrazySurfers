@@ -11,21 +11,47 @@ interface Props {
 const AnimalGrid = ({animals, animalOnClick}: Props) =>{
     const [filteredAnimals, setfilteredAnimals] = useState(animals)
     function doSearch(event: any) {
-        console.log("le event", event.target.value);
+        console.log("search event", event.target.value);
     }
+    console.log("animals onload", filteredAnimals);
 
     const filterLocation =(event: any) => {
-        let currentLocation: string = event.target.value;
         console.log(event);
         console.log(animals);
-        setfilteredAnimals(animals.filter(animal => animal.location == event.target.value));
+        if(event.target.value == "") {
+            setfilteredAnimals(animals);
+        } else {
+            setfilteredAnimals(animals.filter(animal => animal.location?.toLocaleLowerCase() == event.target.value?.toLocaleLowerCase()));
+        }
         console.log(filteredAnimals);
     }
-    console.log(typeof filteredAnimals);
+
+    const filterType =(event: any) => {
+        console.log(event);
+        console.log(animals);
+        if(event.target.value == "") {
+            setfilteredAnimals(animals);
+        } else {
+            setfilteredAnimals(animals.filter(animal => animal.type?.toLocaleLowerCase() == event.target.value?.toLocaleLowerCase()));
+        }
+        console.log(filteredAnimals);
+    }
+
+    const filterAge =(event: any) => {
+        console.log(event.target.value);
+        console.log(animals);
+        if(event.target.value == "") {
+            setfilteredAnimals(animals);
+        } else {
+            setfilteredAnimals(animals.filter(animal => {
+                return animal.born == event.target.value;
+            }));
+        }
+    }
     
     return(  
         <section className="grid-container"> 
-            <Search animals={animals} doSearch={doSearch} filterLocation={filterLocation}/>
+            <Search animals={animals} doSearch={doSearch} filterLocation={filterLocation} filterAge={filterAge}/>
             {filteredAnimals.map(animal => (
                 <AnimalCard key={animal.animalId} animal={animal} animalOnClick={animalOnClick}/> 
             ))} 
