@@ -8,9 +8,11 @@ import { AnimalDis } from '../models/data';
 
 interface Props {
   animals: AnimalDis[];
+  doSearch: (event: any) => void;
+  filterLocation: (event: any) => void;
 } 
 
-function Search({animals}: Props) {
+function Search({animals, doSearch, filterLocation}: Props) {
 
   // event: object 
   // Property 'target' does not exist on type 'object'.ts(2339)
@@ -21,13 +23,9 @@ function Search({animals}: Props) {
   // Type 'ChangeEvent<HTMLSelectElement>' is not assignable to type 'ChangeEvent<HTMLInputElement>'.
   // Type 'HTMLSelectElement' is missing the following properties from type 'HTMLInputElement': accept, align, alt, capture, and 37 more.ts(2322)
 
-  function doSearch(event: any) {
-    console.log("le event", event.target.value);
-  }
 
-  function filterLocation(event: any) {
-    console.log("filterLocation", event.target.value);
-  }
+
+  
 
   function filterAge(event: any) {
     console.log("filterAge", event.target.value);
@@ -62,7 +60,7 @@ function Search({animals}: Props) {
       <select onChange={filterLocation} >
         <option value="">Plats</option>
         {findUniqueValues("location").map(location => (
-          <option value={location.toLocaleLowerCase()}>{location}</option>
+          <option value={location}>{location}</option>
         ))}
       </select>
 
