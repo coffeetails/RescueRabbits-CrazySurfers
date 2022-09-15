@@ -14,10 +14,7 @@ function Search({animals, doSearch}: Props) {
 
   return (
     <section className="search">
-      <input placeholder='Sök' onChange={doSearch} />
-      
-      {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
-      
+      <input placeholder='Plats, Namn, DjurTyp' onChange={doSearch} /> 
     </section>
   )
 }
