@@ -13,8 +13,6 @@
 }
 
 .info-flex-container {
-
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -23,16 +21,23 @@
 }
 
 .info-adopt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 10vw;
-  
-}    
-.title-review{
-    margin: 5vw;
-    text-align: center
+    @include margin-boxes;
+}
+
+.info-adopt h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.info-adopt > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.customer-article {
+    @include margin-boxes;    
 }
 
 .reviews {
