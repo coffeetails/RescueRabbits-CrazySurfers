@@ -1,4 +1,4 @@
-@use 'base';
+@use 'base.scss';
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
   padding: 0;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: base.$clr-font;
-  size: 14px;
+  font-size: 14px;
 }
 
 // because selections, inputs and buttons have special rules
@@ -18,18 +18,18 @@ select, input, button {
   border: base.$borderStyle;
 }
 
-* h1 {
-  size: 64px;
+h1 {
+  font-size: 64px;
 }
 
-* h2 {
-  size: 24px;
+h2 {
+  font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-* h3 {
-  size: 18px;
+h3 {
+  font-size: 18px;
 }
 
 .App {

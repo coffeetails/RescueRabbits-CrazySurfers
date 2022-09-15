@@ -1,9 +1,10 @@
+@use '../_base.scss';
+
 .textWrapper {
   text-align: center;
-  margin: 20px 10vw;
+  @include base.contentWidth;
 }
 
 .landingPageWrapper {
-  width: 80vw;
-  margin: 0 auto;
+  @include base.contentWidth;
 }

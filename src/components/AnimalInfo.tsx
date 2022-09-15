@@ -2,7 +2,7 @@ import './animalinfo.scss'
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import AnimalForum from './AnimalForum';
+import AnimalForum from './AnimalForm';
 
 
 const AnimalInfo = () =>{
@@ -50,30 +50,34 @@ const AnimalInfo = () =>{
                     <table className="animal-stats">
                         <tbody>
                         <tr>
-                            <td>Kön</td>
+                            <td>Kön:</td>
                             <td className='stats-value'>{animal.gender}</td>
                         </tr>
                         <tr>
-                            <td>Ålder</td>
+                            <td>Ålder:</td>
                             <td className='stats-value'>{animal.born}</td>
                         </tr>
                         <tr>
-                            <td>Plats</td>
+                            <td>Plats:</td>
                             <td className='stats-value'>{animal.location}</td>
                         </tr>
                         <tr>
-                            <td>Typ</td>
+                            <td>Typ:</td>
                             <td className='stats-value'>{animal.type}</td>
                         </tr>
                         <tr>
-                            <td>Bokad</td>
+                            <td>Kom till oss:</td>
+                            <td className='stats-value'>{animal.arrival}</td>
+                        </tr>
+                        <tr>
+                            <td>Bokad:</td>
                             <td className='stats-value'>{animal.booked}</td>
                         </tr>
                     </tbody>
                     </table>
                     
                 </section>  
-            ))};
+            ))}
                     
                 <div className='arrow'>
                     <div className='arrow-shape'></div>
