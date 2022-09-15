@@ -11,7 +11,7 @@ const AnimalCard = ({animal, animalOnClick}: Props) =>{
     return(
         
         <div className='card' key={animal.animalId}>
-            <div className={"booked"+animal.booked}><h3></h3></div>
+            <div className={"booked booked"+animal.booked}> </div>
                 <img src={animal.img} alt="" />
                 <h3>{animal.name}</h3>
                 <p>Född: {animal.born}</p>

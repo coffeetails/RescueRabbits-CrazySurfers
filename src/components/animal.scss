@@ -24,7 +24,7 @@
             &:hover{
                 background-color: rgb(106, 179, 63);
                 font-size: medium;
-                margin-bottom: 8px;
+                margin-bottom: 6px;
             }
         }
 
@@ -39,24 +39,15 @@ img{
     width: 15rem;
     object-fit: cover;
 }
-
-.bookedtrue{
+.booked {
     display: box;
     position: absolute;
     width: 100%;
-    background-color: red;
     padding: 5px;
-    h3{
-        color: rgb(239, 243, 247);
+    &.bookedtrue{
+        background-color: red;
     }
-}
-.bookedfalse{
-    display: box;
-    position: absolute;
-    width: 100%;
-    background-color: green;
-    padding: 5px;
-    h3{
-        color: rgb(239, 243, 247);
+    &.bookedfalse{
+        background-color: green;
     }
 }
