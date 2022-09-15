@@ -8,15 +8,11 @@ interface Props {
 
 function Search({animals, doSearch}: Props) {
 
-  
-
-
-
   return (
     <section className="search">
       <input placeholder='Sök' onChange={doSearch} />
       
-      {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
+      
       
     </section>
   )
