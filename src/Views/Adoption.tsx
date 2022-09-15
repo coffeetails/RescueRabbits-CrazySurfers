@@ -19,10 +19,8 @@ const Adoption = () => {
                     ni tar er beslutet att skicka in en intresse anmälan till någon av våra djur. 
                     Se över er levnads situation och om ni har tiden och energin att lägga ner på att skaffa ett djur. Se över om det finns någon risk för allergi som 
                     ni kanske inte känner till. Allt detta är viktigt för att förhindra framtida 
-                    omständigheter. Så länge ni tänker på detta så kan adoption vara ett undebart nytt äventyr som kan ta sin start hos oss 
-                    här på Rescue Rabbits.Adoptions processen är snabb enkel och smidig. Vi börjar med ett enkelt fråge formulär som består av 20 frågor kring levnandssituation
-                    osv. allt för matchningen med ett djur ska vara så exakt som möjligt.
-                    Så tveka inte, hör av er till oss nu!  
+                    omständigheter. Så länge ni tänker på detta så kan adoption vara en undebart nytt äventyr som kan ta sin start hos oss 
+                    här på Rescue Rabbits.  
                 </p>
             </article>
             <article>
@@ -30,7 +28,7 @@ const Adoption = () => {
                 Från andra som har adopterat djur
                 </h3>
             </article>
-            <article>
+            <article className="customer-article">
                 <div className="reviews">
                     <p>ANNA</p>
                     <p>2022-08-14</p>
