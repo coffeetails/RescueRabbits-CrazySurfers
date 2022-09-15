@@ -58,7 +58,7 @@ function Search({animals, doSearch, filterLocation, filterType, filterAge, onlyB
       {/* TODO: Flip so that "Alla" is default instead of "Obokade" */}
       <label className="switchBox" onChange={onlyBooked} >
         <input type="checkbox" />
-        <span className="slider">Alla &nbsp; Obokade</span>
+        <span className="slider">Obokade &nbsp;&nbsp;&nbsp;&nbsp; Alla</span>
       </label>
     </section>
   )

@@ -51,7 +51,7 @@
   position: absolute;
   content: "";
   height: 25px;
-  width: 40px;
+  width: 75px;
   border: base.$borderStyle;
   border-radius: base.$radius 0.8rem 0.8rem base.$radius;
   left: -1px;
@@ -70,7 +70,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(40px);
-  width: 77px;
+  transform: translateX(70px);
+  width: 46px;
   border-radius: 0.8rem base.$radius base.$radius 0.8rem;
 }
