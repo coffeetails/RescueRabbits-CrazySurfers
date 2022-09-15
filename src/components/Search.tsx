@@ -15,6 +15,7 @@ function Search({animals, doSearch}: Props) {
   return (
     <section className="search">
       <input placeholder='Plats, Namn, DjurTyp' onChange={doSearch} /> 
+      
     </section>
   )
 }

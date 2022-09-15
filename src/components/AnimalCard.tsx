@@ -17,6 +17,7 @@ const AnimalCard = ({animal, animalOnClick}: Props) =>{
                 <p>Född: {animal.born}</p>
                 <p>Kön: {animal.gender}</p>
                 <p>Plats: {animal.location}</p>
+                <p>Kom till oss: {animal.arrival}</p>
              <button onClick={() =>animalOnClick(animal)}>Läs mer</button>
          </div>
     )
