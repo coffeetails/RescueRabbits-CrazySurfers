@@ -60,7 +60,7 @@ function Search({animals, doSearch, filterLocation}: Props) {
       <select onChange={filterType} >
         <option value="">Djurtyp</option>
         {findUniqueValues("type").map(type => (
-          <option value={type.toLocaleLowerCase()}>{type}</option>
+          <option value={type}>{type}</option>
         ))}
       </select>
       
