@@ -16,7 +16,7 @@ const AnimalGrid = ({animals, animalOnClick}: Props) =>{
         let inputSearch = event.target.value
         let upperInputSearch = inputSearch.charAt(0).toUpperCase() + inputSearch.slice(1)
         setsearchedData(upperInputSearch)
-        console.log("le event", event.target.value);
+        console.log("search event", event.target.value);
         
     }
 
