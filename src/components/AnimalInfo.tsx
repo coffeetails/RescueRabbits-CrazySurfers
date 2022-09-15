@@ -21,16 +21,25 @@ const AnimalInfo = () =>{
     
     animalArray.push(animal);
     
-    animalArray.map(animal =>{
-
-        if (animal.booked == true) {
-            animal.booked = 'Ja'
+    function checkIfBooked(){
+        if(animalArray[0].booked) {
+            return "Ja";
+        } else {
+            return "Nej";
         }
-        
-        if (animal.booked == false) {
-            animal.booked = 'Nej'  
-        }  
-    })
+    }
+    function displayForm(){
+        if(animalArray[0].booked) {
+            return (
+                <section className='form-container'>
+                    <h2>Intresseanmälan</h2>
+                    <p>{animalArray[0].name} är redan bokad men det finns många andra djur att välja på.</p>
+                </section>
+            );
+        } else {
+            return <AnimalForm />;
+        }
+    }
 
     
     return(
@@ -78,7 +87,7 @@ const AnimalInfo = () =>{
                 <div className='arrow'>
                     <div className='arrow-shape'></div>
                 </div>
-                <AnimalForum  />
+                {displayForm()}
             </section>
            <Footer />
         </>
