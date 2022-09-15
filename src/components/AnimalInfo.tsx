@@ -21,17 +21,6 @@ const AnimalInfo = () =>{
     
     animalArray.push(animal);
     
-    // animalArray.map(animal =>{
-
-    //     if (animal.booked == true) {
-    //         animal.booked = 'Ja'
-    //     }
-        
-    //     if (animal.booked == false) {
-    //         animal.booked = 'Nej'  
-    //     }  
-    // })
-
     function checkIfBooked(){
         if(animalArray[0].booked) {
             return "Ja";
