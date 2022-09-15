@@ -42,5 +42,8 @@
 }
 .submit-btn{
     justify-self: center;
-    padding: 0.8rem 2rem;
+    padding: 1rem 3rem;
+    background-color: base.$clr-accent-focus;
+    color: white;
+    font-weight: bold;
 }

@@ -28,7 +28,7 @@ function Search({animals, doSearch, filterLocation, filterType, filterAge, onlyB
 
   return (
     <section className="search">
-      <input placeholder='Sök' onChange={doSearch} />
+      <input type='text' placeholder='🔍 Sök' onChange={doSearch} />
       
       <select onChange={filterLocation} >
         <option value="">Plats</option>

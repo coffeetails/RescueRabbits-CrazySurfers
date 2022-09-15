@@ -1,8 +1,6 @@
 @use '../_base.scss';
 
 .animal-info{
-    // background-color: base.$clr-accent;
-    width: 100vw;
     .animal-card{
         padding: 5vw ;
         display: flex;
@@ -10,7 +8,6 @@
         flex-direction: row;
         justify-content: center;
         background-color: base.$clr-accent;
-        
     }
 }
 
@@ -54,9 +51,7 @@
 
     .stats-value{
         background-color: base.$clr-bg-focus;
-        color: black;
-        width: 60vw;
-        text-align: left;
+        color: base.$clr-font;
     }
 }
 
@@ -66,25 +61,23 @@ tbody{
 td{
     background-color: base.$clr-accent-focus;
     color: white;
-    padding: 14px;
+    padding: 10px;
     width: 50vw;
     text-align: center;
 }
 
 .arrow{
-    margin-top: -2.3vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    // box-shadow: 4px 15px 10px base.$clr-accent; 
     margin-bottom: 5vh;
     
     .arrow-shape{
         width: 0;
         height: 0;
-        border-top: 10vh solid base.$clr-accent;
-        border-left: 100vw solid transparent;
-        border-right: 100vw solid transparent; 
+        border-top: 5vh solid base.$clr-accent;
+        border-left: 48vw solid transparent;
+        border-right: 48vw solid transparent; 
         
     }
 }
