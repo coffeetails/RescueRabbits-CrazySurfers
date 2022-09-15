@@ -7,14 +7,11 @@ interface Props {
   filterLocation: (event: any) => void;
   filterType: (event: any) => void;
   filterAge: (event: any) => void;
+  onlyBooked: (event: any) => void;
 } 
 
-function Search({animals, doSearch, filterLocation, filterType, filterAge}: Props) {
+function Search({animals, doSearch, filterLocation, filterType, filterAge, onlyBooked}: Props) {
 
-  function onlyBooked(event: any) {
-    console.log("onlyBooked", event.target.value);
-  }
-  
 
   function findUniqueValues(filterValue: string) {
     let returnArray: string[] = [];
