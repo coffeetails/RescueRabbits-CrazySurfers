@@ -8,24 +8,20 @@ $icon-weight: 50px;
 
 .footer {
     width: 100%;
-    padding: 15px;
-    height: 100%;
+    margin-top: auto;
+    padding: 30px 15px;
     background-color: base.$clr-bg-focus;
     color: base.$clr-font;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    left:0;
-    bottom:0;
-    right:0;
 }
 
 .fa {
     font-size: 2em;
     height: 2.5rem;
     width: 2.5rem;
-    // text-align: center;
     text-decoration: none;
     border-radius: 0.5rem;
     margin: 2vw;
