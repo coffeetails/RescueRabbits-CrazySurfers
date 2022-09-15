@@ -1,6 +1,6 @@
 export interface AnimalDis {
     name: string;
-    born: number;
+    born: string;
     location: string;
     gender: string;
     type?: string;
