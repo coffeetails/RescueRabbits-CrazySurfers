@@ -3,10 +3,10 @@
 @mixin info-containers {
     background-color: white;
     width: 570px;
-    height: auto;
+    height: 290px;
     margin-bottom: 1.9rem;
     padding: 3rem;
-    box-shadow: base.$shadow;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 @mixin info-h3 {
@@ -29,13 +29,13 @@
 
 .big-info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 3.5rem ;
-    padding: 3.5rem;
+    flex-wrap: wrap;   
     background-color: #576F72;
-    box-shadow: base.$shadow;
+    margin: 5rem;
+    padding: 5rem;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
 
 .title-p {
     color: white;
@@ -56,16 +56,21 @@
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    line-height: 1.5rem;
-    padding-bottom: 8rem;
+    line-height: 1.8rem;
+    padding-bottom: 9rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
 
-.info-left, .info-right {
+.info-left {
     @include info-containers;
 }
+
+.info-right {
+    @include info-containers;
+}
+
 
 .info-h3 {
     @include info-h3;
